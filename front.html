@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Gallary</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="background-color: #f8eded; font-family: Roboto, sans-serif">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <a
+        href="front.html"
+        class="navbar-brand"
+        style="font-family: roboto, sans-serif; font-weight: 500"
+      >
+        <img
+          src="image/logo1.png"
+          alt="logo"
+          width="100px"
+          height="100px"
+          style="margin-left: 10px; margin-top: -25px; margin-bottom: -25px"
+        />
+        Artgallery</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar1"
+        aria-controls="navbar1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item">
+            <a href="front.html" class="link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="link">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="#appbook"
+                style="font-size: 18px; font-family: akaya telivigala"
+              >
+                Book Appointment</a
+              >
+              <a
+                class="dropdown-item"
+                href="#contact"
+                style="font-size: 18px; font-family: akaya telivigala"
+                >Direct Contact</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#appbook" class="link">
+              <button
+                class="btn contract"
+                type="submit"
+                style="font-weight: 500; border-radius: 25px"
+              ><i class="fa fa-user"></i>
+                Contract Here
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      
+      <div class="py-5 text-left" id="container">
+        <div class="row py-lg-5">
+          <div class="col-lg- col-md-8 mx-auto banner-content">
+            <h1>WELCOME TO ART GALLERY</h1>
+            <h5>Contact us to fullfil your home with magic of Art.</h5>
+            <a href="#appbook">
+              <button
+                class="btn ban-btn"
+                placeholder="Get Your Art "
+                style="font-size: 24px; border-radius: 0px 18px 0px 18px"
+              >
+                Get Your Art
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <h2 style="text-align: center ;margin-top: 30px;" >Gallery Section</h2>
+      <p style="text-align: center; margin-bottom: 20px">
+        Demo of few of our art provided in our services. 
+      </p>
+      <div class="contain" id="gallery">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="background-color: #5d8f6c">
+              <div class="card-body">
+                <h5 class="card-title">Sketch Art</h5>
+                <div
+                  id="carouselExampleSlideOnly"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="image/art1.webp">
+                        <img
+                          src="image/art1.webp"
+                          class="card-img-top"
+                          alt="First  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art7.jpg">
+                        <img
+                          src="image/art7.jpg"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art8.webp">
+                        <img
+                          src="image/art8.webp"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="card-subtitle">
+                  “Drawing takes time. A line has time in it.”
+                </h6>
+
+                <p class="card-text">
+                  Creation which you have never seen before.
+                </p>
+                <button
+                  class="btn float-right c-btn"
+                  style="border-radius: 0 25px 0px 25px; font-weight: 500"
+                >
+                  Visit <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="background-color: #294f50">
+              <div class="card-body">
+                <h5 class="card-title">Pop-Art</h5>
+                <div
+                  id="carouselExampleSlideOnly"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="image/art2.webp">
+                        <img
+                          src="image/art2.webp"
+                          class="card-img-top"
+                          alt="First  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art9.jpg">
+                        <img
+                          src="image/art9.jpg"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art10.jpg">
+                        <img
+                          src="image/art10.jpg"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="card-subtitle">
+                  “Drawing takes time. A line has time in it.”
+                </h6>
+                <p class="card-text">
+                  Creation which you have never seen before.
+                </p>
+                <button
+                  class="btn float-right c-btn"
+                  style="border-radius: 0 25px 0px 25px; font-weight: 500"
+                >
+                  Visit <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="background-color: #5d8f6c">
+              <div class="card-body">
+                <h5 class="card-title">Expressionism Art</h5>
+                <div
+                  id="carouselExampleSlideOnly"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="image/art3.jpg">
+                        <img
+                          src="image/art3.jpg"
+                          class="card-img-top"
+                          alt="First  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art11.webp">
+                        <img
+                          src="image/art11.webp"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art12.jpg">
+                        <img
+                          src="image/art12.jpg"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="card-subtitle">
+                  “Drawing takes time. A line has time in it.”
+                </h6>
+
+                <p class="card-text">
+                  Creation which you have never seen before.
+                </p>
+                <button
+                  class="btn float-right c-btn"
+                  style="border-radius: 0 25px 0px 25px; font-weight: 500"
+                >
+                  Visit <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="background-color: #294f50">
+              <div class="card-body">
+                <h5 class="card-title">Portrait Art</h5>
+                <div
+                  id="carouselExampleSlideOnly"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="image/art4.jpg">
+                        <img
+                          src="image/art4.jpg"
+                          class="card-img-top"
+                          alt="First  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art5.jpg">
+                        <img
+                          src="image/art5.jpg"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="image/art6.png">
+                        <img
+                          src="image/art6.png"
+                          class="card-img-top"
+                          alt="second  slide"
+                          style="height: 290px"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="card-subtitle">
+                  “Drawing takes time. A line has time in it.”
+                </h6>
+                <p class="card-text">
+                  Creation which you have never seen before.
+                </p>
+                <button
+                  class="btn float-right c-btn"
+                  style="border-radius: 0 25px 0px 25px; font-weight: 500"
+                >
+                  Visit <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 style="text-align: center" id="appbook">Contact Us</h2>
+      <p style="text-align: center; margin-bottom: 20px">
+        You are just few step away from your dream art fill the submission form
+        fullfil few details And be ready to get your art design
+      </p>
+      <div class="row" style="margin-bottom: 3vw">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="card" style="background-color: #5d8f6c; padding: 20px">
+            <div class="card-body">
+              
+              <h5 class="card-title"><i class="fa fa-user" style=" font-size: 50px;"></i><br> Book Your Contract</h5>
+              <p class="card-text">
+                Creation which you have never seen before.
+              </p>
+              <h6 class="card-subtitle">
+                Username or email-Id<br />
+                <input
+                  id="book"
+                  type="email"
+                  placeholder="username or email-Id"
+                /><br />
+                Password<br />
+                <input id="book" type="password" placeholder="Password" /><br />
+                select Type<br />
+                <select id="book" style="height: 30px; overflow:scroll;">
+                  <option id="obook" value="Sketch">Select Option</option>
+                  <option id="obook" value="Sketch">Sketch</option>
+                  <option id="obook" value="Portrait">Portrait</option>
+                  <option id="obook" value="Pop-Art">Pop-Art</option>
+                  <option id="obook" value="Expressionism">
+                    Expressionism
+                  </option>
+                  <option id="obook" value="Sketch">Oil</option>
+                  <option id="obook" value="Sketch">Watercolour</option>
+                  <option id="obook" value="Sketch">Acrylic</option>
+                  <option id="obook" value="Sketch">History Painting</option>
+                  <option id="obook" value="Sketch">LandScape Painting</option>
+                  <option id="obook" value="Sketch">Gouache</option>
+                </select>
+                short discpription about your selection
+                <input
+                  id="book"
+                  type="text"
+                  placeholder="Brief Discription about your art"
+                  style="height: 200px"
+                /><br />or upload demo here <br />
+                <input type="file" id="book" />
+              </h6>
+
+              <button
+                class="btn float-right c-btn"
+                style="border-radius: 0 25px 0px 25px; font-weight: 500"
+              >
+                Submit <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <h2 style="text-align: center; color: #382a1f;font-weight: bold;" id="about">ABOUT US</h2>
+      <p style="text-align: center; margin-bottom: 20px; color: #382a1f;">
+        You are just few step away from your dream art fill the submission form
+        fullfil few details And be ready get your art design
+      </p>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card" style="background-color: #294f50">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: left; padding: 20px">
+                Evolution
+              </h5>
+              <h6 class="card-subtitle">
+                This is a demo page of Art gallery website. Creation was in 15 august 2022.
+                Creating by using Hypertext markup language(HTML), Cascading style sheet(CSS) and Bootstrap. Rough Practice on front-end Web-designing this web page contain a banner, carousel effect, a login-form and few more small effort to make this website worthy.   
+              </h6><br>
+              <p class="card-text">
+                Creation which you have never seen before.
+              </p>
+              <button
+                class="btn float-right c-btn"
+                style="border-radius: 0 25px 0px 25px; font-weight: 500"
+              >
+                Know More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--footer section -->
+
+<footer class="page-footer "  id="contact" style=" background-color:#382a1f;width: 100%; margin-right: 0%;">
+    <div class="row" style="padding-top:30px;margin-right: 0%;">
+      <div class="col-md-4">
+        <a
+          href="#" style="text-decoration: none;" ><b style="font-size:23px;color:#f9a220">CONTACT US</a></b><br><br>
+        <a href="#" style="color: #f8eded"> Mail: Artgallery1@gmail.com </a>        <br>
+          Phone: +91 89455823345
+
+                 <br>
+        <a href="https://goo.gl/maps/wBLnXFVeThQyEtGd6" style="color: #f8eded;" target="_blank"> Address: Muni Maya Ram Marg, <br>Pitampura, Delhi, 110088</a><br>
+        <a href="#" style="color: white;" target="_blank"> Facebook Page </a>      <br>
+
+      </div>
+    
+      
+
+      
+      
+      
+      <div class="col-md-4">
+        <b style="font-size:23px;color:#f9a220; margin-top: 20px;">OTHERS</b><br><br>
+        <a href="3" style="color: white;" target="_blank"> Payment : BHEEM UPI, Paytm, internet banking </a><br>
+        <a href="#gallery" style="color: white;">Gallery </a><br>
+        <a href="https://goo.gl/maps/wBLnXFVeThQyEtGd6" style="color: white;"> Locality </a><br>
+        <a href="#about" style="color: white;"> About </a><br>
+        <a href="front.html" style="color: white;"> Home </a><br>
+        <a href="#top" style="color: white;"> Back to Top </a><br>
+       
+      </div>
+      <div class="col-md-4">
+      <a href="front.html" style="color: white;">
+          <img src="image/logo1.png" style="height:400px;width:80%; margin-top:-70px;" > </a><br>
+        </div>
+    </div>
+    <hr>
+    <div class="row" style="text-align: center;padding-bottom: 60px; margin-right: 0%;">
+      <div class="col-md-12">
+        <a href="#" style="text-decoration: none; color:#D7D5D5;">Copyright @ Art gallery, All Rights Reserved.</a>
+        
+      </div>
+      
+    </div>
+</footer>
+    </main>
+  </body>
+</html>
